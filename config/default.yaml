@@ -1,0 +1,15 @@
+db:
+  type: 'postgres'
+  host: localhost
+  port: 5432
+  username: admin
+  password: admin
+  database: postgres
+  synchronize: true
+  
+api:
+  port: 3000
+
+riot:
+  domain: api.riotgames.com
+  key: rgapi-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
